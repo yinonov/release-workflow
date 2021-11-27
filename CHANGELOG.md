@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/yinonov/release-workflow/compare/v1.0.0...v1.0.1) (2021-11-27)
+
+
+### Bug Fixes
+
+* **files:** fixed with new files ([e91bc50](https://www.github.com/yinonov/release-workflow/commit/e91bc50a74d20b266dd010f516e221a816cce632))
+
 ## 1.0.0 (2021-11-27)
 
 
