@@ -1,6 +1,6 @@
 {
   "name": "release-workflow-debugging",
-  "version": "3.0.0-alpha",
+  "version": "3.0.0-next-0",
   "description": "",
   "main": "index.js",
   "scripts": {
