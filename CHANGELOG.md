@@ -1,3 +1,10 @@
+# [4.1.0-beta.1](https://github.com/yinonov/release-workflow/compare/v4.0.0...v4.1.0-beta.1) (2021-11-28)
+
+
+### Features
+
+* **new feat:** lorem ipsum ([0307705](https://github.com/yinonov/release-workflow/commit/0307705383d4c6b3984fbfb24de2338a463b3f06))
+
 # [4.0.0](https://github.com/yinonov/release-workflow/compare/v3.1.0...v4.0.0) (2021-11-28)
 
 
