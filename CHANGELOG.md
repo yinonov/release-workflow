@@ -1,3 +1,10 @@
+# [4.0.0-next.2](https://github.com/yinonov/release-workflow/compare/v4.0.0-next.1...v4.0.0-next.2) (2021-11-28)
+
+
+### Bug Fixes
+
+* **workspace:** I fixed something ([9cd84b5](https://github.com/yinonov/release-workflow/commit/9cd84b59a061422267a7ec8bde96630c5dc7ec8b))
+
 # [4.0.0-next.1](https://github.com/yinonov/release-workflow/compare/v3.1.0-next.1...v4.0.0-next.1) (2021-11-28)
 
 
