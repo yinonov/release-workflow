@@ -1,6 +1,6 @@
 {
   "name": "release-workflow-debugging",
-  "version": "3.1.0",
+  "version": "4.0.0-beta.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/yinonov/release-workflow#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1"
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2"
   }
 }
