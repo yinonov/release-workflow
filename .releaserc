@@ -2,10 +2,10 @@
     "dryRun": true,
     "branches": [
         {
-            "name": "trululu"
+            "name": "main"
         },
         {
-            "name": "main",
+            "name": "next",
             "channel": "pre/next",
             "prerelease": "next"
         }
