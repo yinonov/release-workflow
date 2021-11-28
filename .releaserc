@@ -5,8 +5,8 @@
         },
         {
             "name": "next",
-            "channel": "beta",
-            "prerelease": "beta"
+            "channel": "next",
+            "prerelease": "next"
         }
     ],
     "plugins": [
