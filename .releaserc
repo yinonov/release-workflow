@@ -5,8 +5,7 @@
         },
         {
             "name": "next",
-            "channel": "pre/next",
-            "prerelease": "next"
+            "prerelease": true
         }
     ],
     "plugins": [
