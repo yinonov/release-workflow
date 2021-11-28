@@ -2,6 +2,7 @@ name: '🚀 Release'
 on:
   push:
     branches: [main, next]
+
 jobs:
   release:
     name: Release
