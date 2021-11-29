@@ -19,3 +19,4 @@ jobs:
         uses: oknozor/cocogitto-action@main
         with:
           release: true
+          check-latest-tag-only: true
