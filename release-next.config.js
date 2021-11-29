@@ -1,8 +1,6 @@
 module.exports = {
     branches: [
-        {
-            name: "main"
-        },
+        "main",
         {
             name: "next",
             channel: "next",
@@ -11,6 +9,15 @@ module.exports = {
     ],
     plugins: [
         "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            {
+                changelogFile: "CHANGELOG.md"
+            }
+        ],
         "@semantic-release/npm",
+        // "@semantic-release/git",
+        "@semantic-release/github"
     ]
 };
