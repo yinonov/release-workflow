@@ -1,3 +1,16 @@
+# [4.1.0](https://github.com/yinonov/release-workflow/compare/v4.0.0...v4.1.0) (2021-11-29)
+
+
+### Bug Fixes
+
+* **actions:** path fix ([4212de3](https://github.com/yinonov/release-workflow/commit/4212de338b9653631f01446886b4e4ce6a19ebdd))
+
+
+### Features
+
+* **aesdg:** slkhndslfkhjnfdhkln ([90b9b04](https://github.com/yinonov/release-workflow/commit/90b9b047acc70798b647fd4bd5f12a62bf1f48f8))
+* **plugins:** conditional config ([9ba3460](https://github.com/yinonov/release-workflow/commit/9ba3460b87f494041e918ac86b00cb90620b8b0a))
+
 # [4.0.0-next.1](https://github.com/yinonov/release-workflow/compare/v3.0.0...v4.0.0-next.1) (2021-11-29)
 
 
