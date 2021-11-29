@@ -19,7 +19,6 @@
   "homepage": "https://github.com/yinonov/release-workflow#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.2"
+    "@semantic-release/git": "^10.0.1"
   }
 }
