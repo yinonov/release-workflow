@@ -1,7 +1,7 @@
-name: '🚀 Release'
+name: '🚀 Release (Next)'
 on:
   push:
-    branches: main
+    branches: next
 
 jobs:
   release:
@@ -22,4 +22,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release -e release-prod.config.js
+        run: npx semantic-release -e release-next.config.js
