@@ -1,5 +1,10 @@
 
 - - -
+## v4.7.0 - 2021-11-30
+#### Features
+- yo yo - (1ad282b) - yinonov
+- - -
+
 ## v4.6.2 - 2021-11-30
 #### Bug Fixes
 - pause post hooks - (8f2de9c) - yinonov
