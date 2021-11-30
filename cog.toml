@@ -1,7 +1,8 @@
 tag_prefix = "v"
 
 post_bump_hooks = [
-    # "git push",
-    # "git push origin {{version}}",
-    "npm version {{version}}"
+    "git push origin {{version}}",
+    "npm version {{version}}",
+    "git push",
+    "gh release create {{version}} -d -t \"Version \"{{version}}"
 ]
