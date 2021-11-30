@@ -1,5 +1,12 @@
 
 - - -
+## v4.8.0 - 2021-11-30
+#### Bug Fixes
+- strings - (0d2a336) - yinon
+#### Features
+- **(files)** added a file - (e0f323d) - yinonov
+- - -
+
 ## v4.7.0 - 2021-11-30
 #### Features
 - yo yo - (1ad282b) - yinonov
