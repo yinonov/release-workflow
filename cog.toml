@@ -1,7 +1,7 @@
 tag_prefix = "v"
 
 post_bump_hooks = [
-    "cargo build --release",
-    "echo 'bumping from {{latest}} to {{version}}'",
-    "cargo bump {{version}}",
+    # "git push",
+    # "git push origin {{version}}",
+    "npm version {{version}}"
 ]
