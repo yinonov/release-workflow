@@ -19,7 +19,7 @@ jobs:
       - name: Install & Bump
         run: |
           npm ci
-          npm version prerelease --preid=next.${git rev-parse --short HEAD} --no-git-tag-version --no-push
+          npm version prerelease --preid=next.$(git rev-parse --short HEAD) --no-git-tag-version --no-push
       - name: Release
         env:
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
