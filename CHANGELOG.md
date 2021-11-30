@@ -19,6 +19,8 @@
 
 * **removal:** 5th removed
 
+- - -
+
 # [4.0.0-next.1](https://github.com/yinonov/release-workflow/compare/v3.0.0...v4.0.0-next.1) (2021-11-28)
 
 
