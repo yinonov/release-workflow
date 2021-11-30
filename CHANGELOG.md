@@ -1,5 +1,18 @@
 
 - - -
+## v4.6.0 - 2021-11-30
+#### Bug Fixes
+- update toml - (a6e1a4c) - yinonov
+- update version - (70184f1) - yinonov
+#### Continuous Integration
+- typo - (9c2f76e) - yinonov
+- release next - (fa0698a) - yinonov
+#### Features
+- **(files)** added a file - (ead4e30) - yinonov
+#### Miscellaneous Chores
+- **(version)** v4.6.0 - (0f50999) - cog-bot
+- - -
+
 # [4.0.0-next.1](https://github.com/yinonov/release-workflow/compare/v3.0.0...v4.0.0-next.1) (2021-11-29)
 
 
