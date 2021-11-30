@@ -1,7 +1,7 @@
 name: '🚀 Release (Next)'
 on:
   push:
-    branches: next
+    branches: main
 
 jobs:
   release:
@@ -16,10 +16,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 'lts/*'
-      - name: Install dependencies
-        run: npm ci
+      - name: Install & Bump
+        run: |
+          npm ci
+          npm version prerelease --preid=next.${git rev-parse --short HEAD} --no-git-tag-version --no-push
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release -e ./release-next.config.js
+        run: publish from-package --yes --dist-tag canary
