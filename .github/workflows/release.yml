@@ -16,7 +16,7 @@ jobs:
 
       - name: Cocogitto release
         id: release
-        uses: oknozor/cocogitto-action@v2
+        uses: oknozor/cocogitto-action@v2.1
         with:
           release: true
           check-latest-tag-only: true
