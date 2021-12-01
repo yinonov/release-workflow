@@ -1,6 +1,6 @@
 {
   "name": "release-workflow-debugging",
-  "version": "4.91.2-next.438473454",
+  "version": "5.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/yinonov/release-workflow.git"
   },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
