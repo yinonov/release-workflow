@@ -1,5 +1,10 @@
 
 - - -
+## v4.92.1 - 2021-12-01
+#### Bug Fixes
+- update - (3de4ba6) - yinonov
+- - -
+
 ## v4.92.0 - 2021-12-01
 #### Bug Fixes
 - release next - (4f2dbaa) - yinonov
