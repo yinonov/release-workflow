@@ -1,5 +1,17 @@
 
 - - -
+## v4.92.0 - 2021-12-01
+#### Bug Fixes
+- release next - (4f2dbaa) - yinonov
+- tags - (dbf3448) - yinonov
+- update - (6050a91) - yinonov
+- update - (aff015d) - yinonov
+- updates - (eeb049e) - yinonov
+- npm token - (67f4388) - yinonov
+#### Features
+- update - (80827e8) - yinonov
+- - -
+
 ## v4.9.9 - 2021-12-01
 #### Bug Fixes
 - hookssss - (023c008) - yinonov
