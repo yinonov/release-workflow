@@ -13,16 +13,19 @@ jobs:
         with:
           fetch-depth: 0
       - name: Setup Node.js
+        # Setup .npmrc file to publish to npm
         uses: actions/setup-node@v2
         with:
           node-version: 'lts/*'
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
           # scope: '@vonage'
+
       - name: Install
         run: npm ci
+
       - name: Bump
-        # TODO: replace once 3 is stable and published
+        # TODO: replace once 3rd version is stable and published
         # run: npm version prerelease --preid=next.$(git rev-parse --short HEAD) --no-git-tag-version --no-push
         run: npm version 3.0.0-next.$(git rev-parse --short HEAD) --no-git-tag-version --no-push
 
